@@ -125,6 +125,18 @@
                 ]
               },
               {
+                "group": "Project Zomboid",
+                "pages": [
+                  "es/juegos/project-zomboid/introduccion",
+                  "es/juegos/project-zomboid/unirse-servidor",
+                  "es/juegos/project-zomboid/instalar-build-42",
+                  "es/juegos/project-zomboid/instalar-mods",
+                  "es/juegos/project-zomboid/darse-admin",
+                  "es/juegos/project-zomboid/cambiar-spawn",
+                  "es/juegos/project-zomboid/aumentar-zombies"
+                ]
+              },
+              {
                 "group": "FiveM",
                 "pages": [
                   "es/juegos/fivem/introduccion",
@@ -137,18 +149,6 @@
                 "pages": [
                   "es/juegos/hytale/introduccion",
                   "es/juegos/hytale/unirse-servidor"
-                ]
-              },
-              {
-                "group": "Project Zomboid",
-                "pages": [
-                  "es/juegos/project-zomboid/introduccion",
-                  "es/juegos/project-zomboid/unirse-servidor",
-                  "es/juegos/project-zomboid/instalar-build-42",
-                  "es/juegos/project-zomboid/instalar-mods",
-                  "es/juegos/project-zomboid/darse-admin",
-                  "es/juegos/project-zomboid/cambiar-spawn",
-                  "es/juegos/project-zomboid/aumentar-zombies"
                 ]
               }
             ]
