@@ -96,7 +96,9 @@
                   "es/juegos/rust/introduccion",
                   "es/juegos/rust/unirse-servidor",
                   "es/juegos/rust/plugins-populares",
-                  "es/juegos/rust/comandos-administrador"
+                  "es/juegos/rust/comandos-administrador",
+                  "es/juegos/rust/cambiar-nombre",
+                  "es/juegos/rust/cambiar-tamano-mundo"
                 ]
               },
               {
