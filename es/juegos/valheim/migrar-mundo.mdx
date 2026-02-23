@@ -1,0 +1,37 @@
+---
+title: "Migrar un mundo de Valheim desde tu PC al panel"
+sidebarTitle: "Migrar mundo"
+description: "Guía rápida para subir y usar un mundo de Valheim desde tu PC en un servidor con panel."
+---
+
+## Pasos para migrar mundo desde PC al panel
+
+1. Ubicar el mundo en tu PC.
+
+En tu computadora, los mundos de Valheim se guardan en:
+`C:\Users\TU_USUARIO\AppData\LocalLow\IronGate\Valheim\worlds`
+
+Dentro encontrarás **dos archivos con el mismo nombre**:
+
+```
+NOMBRE_DEL_MUNDO.db
+NOMBRE_DEL_MUNDO.fwl
+```
+
+<Warning>
+Ambos archivos son obligatorios.
+</Warning>
+
+2. Copia los archivos `.db` y `.fwl` del mundo que quieras migrar.
+3. Guárdalos en una carpeta temporal (por ejemplo, el Escritorio).
+4. Apaga el servidor.
+5. Ve al panel a la sección **Files**.
+6. Ve a la ruta `/home/container/.config/unity3d/IronGate/Valheim/worlds_local`.
+7. Sube **los dos archivos** que guardamos anteriormente.
+8. Ve al panel a la sección **Startup**.
+9. Busca la variable **WORLD NAME** y cambialo por el nombre de tu mundo.
+10. Inicia el servidor nuevamente.
+
+<Frame>
+  <img src="/images/games/valheim/valheim-migrar-mundo.gif"/>
+</Frame>

@@ -106,7 +106,10 @@
                 "pages": [
                   "es/juegos/valheim/introduccion",
                   "es/juegos/valheim/unirse-servidor",
-                  "es/juegos/valheim/comandos-administrador"
+                  "es/juegos/valheim/agregar-administrador",
+                  "es/juegos/valheim/comandos-administrador",
+                  "es/juegos/valheim/cambiar-nombrer",
+                  "es/juegos/valheim/migrar-mundo"
                 ]
               },
               {
