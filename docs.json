@@ -148,7 +148,12 @@
                 "group": "Hytale",
                 "pages": [
                   "es/juegos/hytale/introduccion",
-                  "es/juegos/hytale/unirse-servidor"
+                  "es/juegos/hytale/unirse-servidor",
+                  "es/juegos/hytale/actualizar-servidor",
+                  "es/juegos/hytale/autentificar-servidor",
+                  "es/juegos/hytale/cambiar-nombre",
+                  "es/juegos/hytale/instalar-mods",
+                  "es/juegos/hytale/migrar-mundo"
                 ]
               }
             ]

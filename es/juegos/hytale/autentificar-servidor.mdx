@@ -1,0 +1,35 @@
+---
+title: "Autentificar un servidor de Hytale"
+sidebarTitle: "Autentificar servidor"
+description: "Guía para autentificar un servidor de Hytale y permitir que los jugadores puedan ingresar."
+---
+
+# Cómo autentificar un servidor de Hytale
+
+Si inicias el servidor por primera te va a pedir una autentificación, el mensaje es algo como esto:
+
+<Frame>
+  <img src="/images/games/hytale/autentificar-servidor.png"/>
+</Frame>
+
+1. En la terminal colocamos el siguiente comando: `auth login device`
+
+Una vez ingresado el comando nos enviará un URL como este `https://oauth.accounts.hytale.com/oauth2/device/verify?user_code=CODIGO`
+
+2. Ingresamos al URL.
+3. Ingresa con tu cuenta de Hytale y autoriza la autentificación.
+
+<Frame>
+  <img src="/images/games/hytale/autentificar-servidor-2.png"/>
+</Frame>
+
+4. Volvemos a nuestra terminal y esperamos a que el servidor obtenga una respuesta.
+
+Dentro de 1 minuto el servidor enviará una respuesta como esta `Authentication successful!`
+con esto nuestro servidor ya esta autorizado para que usuarios puedan ingresar.
+
+Por ultimo nos faltaría solo un paso que es para que el servidor permanezca autentificado para siempre,
+de lo contrario cada vez que iniciemos el servidor tendriamos que autentificarlo.
+
+5. En la terminal colocamos el siguiente comando: `auth persistence Encrypted`
+6. Listo, ya podemos jugar tranquilamente con nuestros amigos.
