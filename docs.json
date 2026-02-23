@@ -111,7 +111,12 @@
                 "group": "Unturned",
                 "pages": [
                   "es/juegos/unturned/introduccion",
-                  "es/juegos/unturned/unirse-servidor"
+                  "es/juegos/unturned/unirse-servidor",
+                  "es/juegos/unturned/cambiar-nombre",
+                  "es/juegos/unturned/agregar-token",
+                  "es/juegos/unturned/agregar-mods",
+                  "es/juegos/unturned/activar-fakeip",
+                  "es/juegos/unturned/agregar-discord"
                 ]
               },
               {

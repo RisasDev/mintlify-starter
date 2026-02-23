@@ -1,0 +1,68 @@
+---
+title: "Cómo agregar un token de inicio de sesión (GSLT) en Unturned"
+sidebarTitle: "Agregar GSLT (Token)"
+description: "Guía para configurar un Game Server Login Token (GSLT) en un servidor de Unturned alojado en un panel de hosting."
+---
+
+# Cómo agregar un token de inicio de sesión (GSLT) en Unturned
+
+El **Game Server Login Token (GSLT)** es un token proporcionado por Steam que permite que tu servidor aparezca correctamente en la lista oficial de servidores.
+
+Sin un GSLT, el servidor puede:
+- No mostrarse públicamente
+- Desconectarse del listado oficial
+- Tener problemas de autenticación con Steam
+
+---
+
+## Paso 1: Crear un GSLT (Token) en Steam
+
+1. Ve a la página oficial de Steam:
+   
+   https://steamcommunity.com/dev/managegameservers
+
+2. Inicia sesión con tu cuenta de Steam.
+3. En el campo **App ID**, escribe:
+```
+304930
+```
+
+<Info>
+304930 es el AppID oficial de Unturned.
+</Info>
+
+4. Escribe un nombre identificador para tu servidor (ejemplo: `Unturned RDSNode`).
+5. Haz clic en **Create**.
+6. Copia el token generado.
+
+El token será una cadena larga similar a:
+```
+A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6
+```
+
+<Frame>
+  <img src="/images/games/unturned/unturned-crear-token.gif"/>
+</Frame>
+
+## Paso 2: Agregar el GSLT (Token) en el panel
+
+1. Entra al panel.
+2. Ve a la sección **Startup**.
+3. Busca el campo relacionado con:
+```
+Login_Token
+```
+
+4. Pega el token generado por Steam.
+5. Guarda los cambios.
+
+---
+
+## Paso 3: Reiniciar el servidor
+
+Después de guardar el token:
+
+1. Detén el servidor.
+2. Inícialo nuevamente.
+
+El servidor ahora se autenticará correctamente con Steam.

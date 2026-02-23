@@ -1,0 +1,43 @@
+---
+title: "Activar FakeIP en Unturned"
+sidebarTitle: "Activar FakeIP"
+description: "Guía rápida para activar FakeIP en un servidor de Unturned editando el archivo Config.txt."
+---
+
+# Activar FakeIP en Unturned
+
+FakeIP permite que tu servidor de **Unturned** se anuncie correctamente en Steam cuando usas **IP compartida, NAT o no tienes port forwarding**.
+
+---
+
+## Cómo activar FakeIP
+
+1. **Apaga el servidor** desde el panel.
+2. Abre el archivo `Config.txt`.
+
+```
+Ruta:
+/home/container/Servers/unturned
+```
+
+3. Busca la línea: (CTRL + F)
+
+```json
+Use_FakeIP
+```
+
+4. Déjala de la siguiente forma:
+
+```json
+Use_FakeIP True
+```
+
+5. Guarda los cambios e inicia el servidor.
+
+<Info>
+Para saber la nueva IP utiliza el comando 'CopyFakeIP' en consola o en el juego
+</Info>
+
+<Frame>
+  <img src="/images/games/unturned/unturned-activar-fakeip.gif"/>
+</Frame>
